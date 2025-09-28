@@ -14,10 +14,17 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Your Name - Portfolio",
-  description: "Personal portfolio showcasing my work and skills",
-  keywords: ["portfolio", "developer", "web development"],
-  authors: [{ name: "Your Name" }],
+  title: "Samyeak Maharjan - Software Engineer",
+  description: "Full-stack .NET developer with 7+ years' experience in building scalable ERP and fintech platforms. Specialized in C#, .NET Core, SQL Server, and modern web technologies.",
+  keywords: ["software engineer", "full stack developer", ".NET", "C#", "SQL Server", "React", "microservices", "Nepal"],
+  authors: [{ name: "Samyeak Maharjan" }],
+  openGraph: {
+    title: "Samyeak Maharjan - Software Engineer",
+    description: "Full-stack .NET developer specializing in enterprise applications and fintech platforms",
+    url: "https://samyeak.com.np",
+    siteName: "Samyeak Maharjan Portfolio",
+    type: "website",
+  },
 };
 
 export default function RootLayout({

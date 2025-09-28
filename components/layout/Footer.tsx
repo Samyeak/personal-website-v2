@@ -4,10 +4,10 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
-    { href: "https://github.com/yourusername", label: "GitHub" },
-    { href: "https://linkedin.com/in/yourusername", label: "LinkedIn" },
-    { href: "https://twitter.com/yourusername", label: "Twitter" },
-    { href: "mailto:your.email@example.com", label: "Email" },
+    { href: "https://github.com/samyeak", label: "GitHub" },
+    { href: "https://linkedin.com/in/samyeak", label: "LinkedIn" },
+    { href: "mailto:samyeakmhj@protonmail.com", label: "Email" },
+    { href: "https://samyeak.com.np", label: "Website" },
   ];
 
   return (
@@ -16,7 +16,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           {/* Copyright */}
           <div className="text-primary-muted text-sm mb-4 md:mb-0">
-            © {currentYear} Your Name. All rights reserved.
+            © {currentYear} Samyeak Maharjan. All rights reserved.
           </div>
 
           {/* Social Links */}

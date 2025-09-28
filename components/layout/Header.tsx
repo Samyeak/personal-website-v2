@@ -19,7 +19,7 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo/Name */}
           <Link href="/" className="text-xl font-medium text-primary hover:text-accent transition-colors">
-            Your Name
+            Samyeak Maharjan
           </Link>
 
           {/* Desktop Navigation */}
